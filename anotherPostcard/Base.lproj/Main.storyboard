@@ -36,9 +36,9 @@
                         </variation>
                     </view>
                     <navigationItem key="navigationItem" title="Deep In Thought" id="uLt-qO-uZK">
-                        <barButtonItem key="rightBarButtonItem" title="Message" id="qM7-0S-pVe">
+                        <barButtonItem key="rightBarButtonItem" title="Message" id="yaB-Jm-IEF">
                             <connections>
-                                <segue destination="E1h-Jx-HpH" kind="show" id="au6-e6-WYu"/>
+                                <segue destination="E1h-Jx-HpH" kind="show" id="7Pa-Nr-Se0"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -81,15 +81,6 @@
                                     <rect key="frame" x="36" y="285" width="315" height="30"/>
                                 </variation>
                             </textField>
-                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hWR-pV-hCH">
-                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="36" y="80" width="329" height="68"/>
-                                </variation>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hNT-U4-uJD">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <color key="backgroundColor" red="0.48522232119999997" green="0.28881861339999998" blue="0.5" alpha="1" colorSpace="calibratedRGB"/>
@@ -104,6 +95,24 @@
                                     <action selector="sendMailButtonPressed:" destination="E1h-Jx-HpH" eventType="touchUpInside" id="IjJ-we-rcD"/>
                                 </connections>
                             </button>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C3C-m5-Gn1">
+                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="36" y="153" width="241" height="21"/>
+                                </variation>
+                            </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hWR-pV-hCH">
+                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="36" y="77" width="329" height="68"/>
+                                </variation>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <variation key="default">
@@ -111,8 +120,9 @@
                                 <exclude reference="EzW-uF-gZj"/>
                                 <exclude reference="Xbo-Td-2Sf"/>
                                 <exclude reference="1gf-Fv-ycf"/>
-                                <exclude reference="hWR-pV-hCH"/>
                                 <exclude reference="hNT-U4-uJD"/>
+                                <exclude reference="C3C-m5-Gn1"/>
+                                <exclude reference="hWR-pV-hCH"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -120,8 +130,9 @@
                                 <include reference="EzW-uF-gZj"/>
                                 <include reference="Xbo-Td-2Sf"/>
                                 <include reference="1gf-Fv-ycf"/>
-                                <include reference="hWR-pV-hCH"/>
                                 <include reference="hNT-U4-uJD"/>
+                                <include reference="C3C-m5-Gn1"/>
+                                <include reference="hWR-pV-hCH"/>
                             </mask>
                         </variation>
                     </view>
@@ -130,26 +141,12 @@
                         <outlet property="enterNameTextField" destination="Xbo-Td-2Sf" id="v2W-qR-sFi"/>
                         <outlet property="mailButton" destination="hNT-U4-uJD" id="WHL-dP-PPO"/>
                         <outlet property="messageLabel" destination="hWR-pV-hCH" id="fw8-0U-WqD"/>
+                        <outlet property="nameMessageLabel" destination="C3C-m5-Gn1" id="uWn-Lr-Ukx"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZqT-OB-tVt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1194" y="-423"/>
-        </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="TRm-IM-tWb">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Nzn-Pd-O6p" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="cIf-zY-CGB">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="AzA-Ze-734" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="402" y="-1144"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="cpH-xX-4yp">
