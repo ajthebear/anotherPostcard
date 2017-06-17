@@ -14,6 +14,18 @@
 		31C819611EF572D5003CCC05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31C8195F1EF572D5003CCC05 /* LaunchScreen.storyboard */; };
 		31C8196C1EF572D5003CCC05 /* anotherPostcardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C8196B1EF572D5003CCC05 /* anotherPostcardTests.swift */; };
 		31C819771EF572D5003CCC05 /* anotherPostcardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C819761EF572D5003CCC05 /* anotherPostcardUITests.swift */; };
+		31C8198F1EF575BE003CCC05 /* ALOHA.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 31C819841EF575BE003CCC05 /* ALOHA.JPG */; settings = {ASSET_TAGS = (); }; };
+		31C819901EF575BE003CCC05 /* AT THE FAIR.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 31C819851EF575BE003CCC05 /* AT THE FAIR.JPG */; settings = {ASSET_TAGS = (); }; };
+		31C819911EF575BE003CCC05 /* BATMAN.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 31C819861EF575BE003CCC05 /* BATMAN.JPG */; settings = {ASSET_TAGS = (); }; };
+		31C819921EF575BE003CCC05 /* DEEP IN THOUGHT BW.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 31C819871EF575BE003CCC05 /* DEEP IN THOUGHT BW.jpg */; settings = {ASSET_TAGS = (); }; };
+		31C819931EF575BE003CCC05 /* DEVIL.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 31C819881EF575BE003CCC05 /* DEVIL.JPG */; settings = {ASSET_TAGS = (); }; };
+		31C819941EF575BE003CCC05 /* main-qimg-45b8c6fbe9b90e785878c3dfdf1fd3c0-c.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 31C819891EF575BE003CCC05 /* main-qimg-45b8c6fbe9b90e785878c3dfdf1fd3c0-c.jpeg */; settings = {ASSET_TAGS = (); }; };
+		31C819951EF575BE003CCC05 /* ON A DATE.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 31C8198A1EF575BE003CCC05 /* ON A DATE.jpg */; settings = {ASSET_TAGS = (); }; };
+		31C819961EF575BE003CCC05 /* p028dw74.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 31C8198B1EF575BE003CCC05 /* p028dw74.jpg */; settings = {ASSET_TAGS = (); }; };
+		31C819971EF575BE003CCC05 /* SANTA.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 31C8198C1EF575BE003CCC05 /* SANTA.JPG */; settings = {ASSET_TAGS = (); }; };
+		31C819981EF575BE003CCC05 /* SOCCER.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 31C8198D1EF575BE003CCC05 /* SOCCER.JPG */; settings = {ASSET_TAGS = (); }; };
+		31C819991EF575BE003CCC05 /* SWITCHBOARD OPERATOR.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 31C8198E1EF575BE003CCC05 /* SWITCHBOARD OPERATOR.JPG */; settings = {ASSET_TAGS = (); }; };
+		31C8199B1EF57B65003CCC05 /* POSTAGE STAMP.gif in Resources */ = {isa = PBXBuildFile; fileRef = 31C8199A1EF57B65003CCC05 /* POSTAGE STAMP.gif */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +59,18 @@
 		31C819721EF572D5003CCC05 /* anotherPostcardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = anotherPostcardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		31C819761EF572D5003CCC05 /* anotherPostcardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = anotherPostcardUITests.swift; sourceTree = "<group>"; };
 		31C819781EF572D5003CCC05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31C819841EF575BE003CCC05 /* ALOHA.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ALOHA.JPG; sourceTree = "<group>"; };
+		31C819851EF575BE003CCC05 /* AT THE FAIR.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "AT THE FAIR.JPG"; sourceTree = "<group>"; };
+		31C819861EF575BE003CCC05 /* BATMAN.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BATMAN.JPG; sourceTree = "<group>"; };
+		31C819871EF575BE003CCC05 /* DEEP IN THOUGHT BW.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "DEEP IN THOUGHT BW.jpg"; sourceTree = "<group>"; };
+		31C819881EF575BE003CCC05 /* DEVIL.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = DEVIL.JPG; sourceTree = "<group>"; };
+		31C819891EF575BE003CCC05 /* main-qimg-45b8c6fbe9b90e785878c3dfdf1fd3c0-c.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "main-qimg-45b8c6fbe9b90e785878c3dfdf1fd3c0-c.jpeg"; sourceTree = "<group>"; };
+		31C8198A1EF575BE003CCC05 /* ON A DATE.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ON A DATE.jpg"; sourceTree = "<group>"; };
+		31C8198B1EF575BE003CCC05 /* p028dw74.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = p028dw74.jpg; sourceTree = "<group>"; };
+		31C8198C1EF575BE003CCC05 /* SANTA.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SANTA.JPG; sourceTree = "<group>"; };
+		31C8198D1EF575BE003CCC05 /* SOCCER.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SOCCER.JPG; sourceTree = "<group>"; };
+		31C8198E1EF575BE003CCC05 /* SWITCHBOARD OPERATOR.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "SWITCHBOARD OPERATOR.JPG"; sourceTree = "<group>"; };
+		31C8199A1EF57B65003CCC05 /* POSTAGE STAMP.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "POSTAGE STAMP.gif"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +125,18 @@
 				31C819581EF572D5003CCC05 /* ViewController.swift */,
 				31C8195A1EF572D5003CCC05 /* Main.storyboard */,
 				31C8195D1EF572D5003CCC05 /* Assets.xcassets */,
+				31C8199A1EF57B65003CCC05 /* POSTAGE STAMP.gif */,
+				31C819841EF575BE003CCC05 /* ALOHA.JPG */,
+				31C819851EF575BE003CCC05 /* AT THE FAIR.JPG */,
+				31C819861EF575BE003CCC05 /* BATMAN.JPG */,
+				31C819871EF575BE003CCC05 /* DEEP IN THOUGHT BW.jpg */,
+				31C819881EF575BE003CCC05 /* DEVIL.JPG */,
+				31C819891EF575BE003CCC05 /* main-qimg-45b8c6fbe9b90e785878c3dfdf1fd3c0-c.jpeg */,
+				31C8198A1EF575BE003CCC05 /* ON A DATE.jpg */,
+				31C8198B1EF575BE003CCC05 /* p028dw74.jpg */,
+				31C8198C1EF575BE003CCC05 /* SANTA.JPG */,
+				31C8198D1EF575BE003CCC05 /* SOCCER.JPG */,
+				31C8198E1EF575BE003CCC05 /* SWITCHBOARD OPERATOR.JPG */,
 				31C8195F1EF572D5003CCC05 /* LaunchScreen.storyboard */,
 				31C819621EF572D5003CCC05 /* Info.plist */,
 			);
@@ -231,9 +267,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31C819951EF575BE003CCC05 /* ON A DATE.jpg in Resources */,
+				31C819941EF575BE003CCC05 /* main-qimg-45b8c6fbe9b90e785878c3dfdf1fd3c0-c.jpeg in Resources */,
 				31C819611EF572D5003CCC05 /* LaunchScreen.storyboard in Resources */,
+				31C819921EF575BE003CCC05 /* DEEP IN THOUGHT BW.jpg in Resources */,
+				31C8198F1EF575BE003CCC05 /* ALOHA.JPG in Resources */,
+				31C819991EF575BE003CCC05 /* SWITCHBOARD OPERATOR.JPG in Resources */,
+				31C819911EF575BE003CCC05 /* BATMAN.JPG in Resources */,
+				31C8199B1EF57B65003CCC05 /* POSTAGE STAMP.gif in Resources */,
+				31C819961EF575BE003CCC05 /* p028dw74.jpg in Resources */,
+				31C819971EF575BE003CCC05 /* SANTA.JPG in Resources */,
+				31C819931EF575BE003CCC05 /* DEVIL.JPG in Resources */,
 				31C8195E1EF572D5003CCC05 /* Assets.xcassets in Resources */,
+				31C819981EF575BE003CCC05 /* SOCCER.JPG in Resources */,
 				31C8195C1EF572D5003CCC05 /* Main.storyboard in Resources */,
+				31C819901EF575BE003CCC05 /* AT THE FAIR.JPG in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
