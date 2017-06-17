@@ -32,6 +32,7 @@ class ViewController: UIViewController {
     }
 
     @IBAction func sendMailButtonPressed(sender: UIButton) {
+        // reveals hidden label to the left of stamp that uses Enter Message test string, changes color of the hidden lable to red. Removes text from Enter Message, and sends keyboard away.
         messageLabel.hidden = false
         messageLabel.text = enterMessageTextField.text
         messageLabel.textColor = UIColor.redColor()
